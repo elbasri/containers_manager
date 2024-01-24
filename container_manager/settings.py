@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'container_control',
 ]
 
 MIDDLEWARE = [
@@ -79,7 +80,7 @@ DATABASES = {
         'NAME': 'containers',
         'USER': 'root',
         'PASSWORD': '',
-        'HOST': 'mysqldb',
+        'HOST': 'localhost',
         'PORT': '3306',
     }
 }
