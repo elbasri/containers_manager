@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-!4j9rw01ns12j2dq_ssy&5kf%l1h$&t@al(5tdxr)_y(di4i#v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['git.codebarre.ma', 'https://git.codebarre.ma', 'localhost', '127.0.0.1']
 
 
 # Application definition
